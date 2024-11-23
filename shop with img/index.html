@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style/style6.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="logo">Shop</div>
+      <div class="cart">
+
+        <search></search>
+        <cart ref="cart"></cart>
+      </div>
+    </header>
+    <main>
+      <products ref="products"></products>
+      <br>
+      <div>{{status}}</div>
+<er :error1="error1"></er>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+    <script src="comp/ProductComponent.js" defer></script>
+    <script src="comp/filter.js" defer></script>
+    <script src="comp/CartComp.js" defer></script>
+    <script src="comp/code.js" defer></script>
+<script src="comp/error.js" defer></script>
+
+    <!--<script src="components/error.js" defer></script>-->
+  </div>
+
+</body>
+
+</html>
